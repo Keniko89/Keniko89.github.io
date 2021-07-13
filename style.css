@@ -1,0 +1,192 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+html{
+  margin:0;
+  padding:0;
+  width:1200px;
+}
+
+ul{
+list-style-type:square;
+}
+
+.header{
+  color:#ffd000;
+  font-family: 'Lobster', cursive;
+  background-image: url("https://sm.ign.com/t/ign_hu/screenshot/default/hayden-christensen-1_3drv.1280.jpg");
+    background-size:1280px 700px;
+    height: 700px;
+    background-position: center;
+  width:500px;
+  position:relative;
+  flex-direction:row;
+  position:fixed left;
+}
+
+#firstline{
+  position:absolute;
+  bottom:220px;
+  font-size:50px;
+  letter-spacing:0.5px;
+  margin-left:110px
+}
+#secline{
+  position:absolute;
+  left:100px;
+  top:390px;
+  font-size:110px;
+  letter-spacing:0.5px;
+  line-height:90px;
+  justify-content:flex-start;
+  position:left;
+}
+.first{
+  width:600px;
+  font-family: 'Lora', serif;
+  font-size:26px;
+  line-height:50px;
+  display:flex;
+  flex-direction:column;
+  margin-right:0px;
+  margin-left:590px;
+  margin-top:-670px;
+  position:fixed right;
+  color:#228B22;
+}
+blockquote::before {
+  content: '\201c';
+  font-size: 200px;
+  left: 0;
+  top:-40px;
+  position: absolute;
+  position:fixed left;
+  margin-left:0px;
+}
+
+blockquote{
+  background-color:#FF8C00;
+  background-size:500px;
+  color:white;
+  font-family: 'Lobster', cursive;
+  font-size:85px;
+  height:550px;
+  position:relative;
+  background-position:fixed left;
+  text-align:left;
+  width:500px;
+  box-sizing:border-box;
+  padding-top:70px;
+  font-weight:900;
+  letter-spacing:1px;
+  margin-top:250px;
+  margin-left:0;
+  padding-left:70px;
+}
+.parag{
+  margin-bottom:5px;
+  margin-left:-40px;
+}
+.second{
+  width:600px;
+  font-family: 'Lora', serif;
+  color:#228B22;
+  display:flex;
+  flex-direction:column;
+  margin-left:520px;
+  margin-top:-500px;
+  position:fixed right;
+}
+.one{
+  text-transform:uppercase;
+  font-size:40px;
+  letter-spacing:2px;
+  margin-top:60px;
+  margin-bottom:50px;
+}
+#notable{
+  margin-top:-50px;
+  margin-bottom:120px
+ 
+}
+#ex{
+  margin-top:-30px;
+  margin-bottom:100px;
+  font-size:40px;
+  letter-spacing:2px;
+}
+.two{
+  font-size:30px;
+  line-height:50px;
+  margin-bottom:20px;
+  margin-top:-50px;
+}
+#over{
+  font-size:30px;
+  margin-top:20px;
+}
+#during{
+  margin-bottom:180px
+}
+.three{
+  width:600px;
+  margin-bottom:60px;
+  font-size:21px;
+  line-height:35px;
+}
+.sup{
+ font-family: 'Merriweather', serif;
+ margin-top:-20px;
+ font-size:22px;
+}
+.seclist{
+  font-size:21px;
+  line-height:35px;
+  margin-top:0px;
+  margin-bottom:130px;
+  margin-left:25px;
+}
+#two{
+  text-align:left;
+  padding-left:40px;
+  margin-top:-120px;
+  height:500px;
+  padding-top:120px;
+ }
+ 
+
+#dis{
+  margin-top:10px;
+}
+#when{
+  text-align:left;
+  padding-left:70px;
+  height:1100px;
+  position:fixed left;
+  margin-top:-80px;
+  padding-top:110px;
+}
+#formal{
+  margin-top:-600px;
+  margin-bottom:100px;
+}
+
+a{
+  font-size:30px;
+  margin-right:100px;
+  color:white;
+  font-family: 'Lora', serif;
+  text-decoration:none;
+  width: 100%;
+}
+.links{
+  background-color:#FF8C00;
+  height:50px;
+  widht:100%;
+  
+}
+.bio{
+  margin-left:230px;
+}
